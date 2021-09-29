@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>
+    
+</title>
+    </head>
+    <body>
+        <div class="container">
+<div>
+            <input type="text" id="search" placeholder="Search Name" onkeyup=" tableSearch()" />
+</div>
+        <div id="pagedata">
+        </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.no.</th>
+                    <th>UserId</th>
+                    <th>Name</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody id="table"></tbody>
+        </table>
+        <div id="page"></div>
+            <button class="btn-click" id="0" onclick="fisrtClick(id)">First</button>
+            <button class="btn-click" id="-1" onclick="previousClick()">perivious</button>
+            <div id="button" style="display: inline;"></div>
+            <button class="btn-click" id="next" >next</button>
+            <button class="btn-click" id="last" onclick="lastClick()">last</button>
+    </div>
+        <script src="pagination1.js"></script>
+    </body>
+</html>
